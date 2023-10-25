@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #f6f8f9;
+}
+
+.container {
+    margin: 0;
+    width: 75%;
+}
+
+.small-margin-bottom {
+    margin-bottom: 2PX;
+}
+
+header {
+    padding: 10px 15px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+.main-container {
+    background-color: white;
+}
+
+.main-bottom {
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    background-color: white;
+}
