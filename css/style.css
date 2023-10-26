@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'reboto', sans-serif;
+}
+
 ul {
     padding-left: 20px;
 }
@@ -13,12 +17,14 @@ body {
 }
 
 .container {
-    margin: 0;
+    padding: 15px;
+    margin: auto;
     width: 75%;
 }
 
 .small-margin-bottom {
-    margin-bottom: 2PX;
+    margin-bottom: 2px;
+    padding: 20px 40px;
 }
 
 header {
@@ -40,8 +46,13 @@ header img {
     background-color: white;
 }
 
+.padding {
+    padding: 30px;
+}
+
 .main-bottom {
     padding: 4px 8px;
+    margin: 4px;
     border-radius: 4px;
     border: 1px solid grey;
     background-color: white;
